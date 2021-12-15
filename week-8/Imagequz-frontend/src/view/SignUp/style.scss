@@ -1,0 +1,37 @@
+.sign-up-wrap {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+
+    .sign-up-box {
+        position: relative;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tip-alert{
+        position: absolute;
+        top: 0;
+        padding: 10px;
+    }
+    .sign-form{
+        margin: 40px;
+        width: 300px;
+    }
+    .form-bottom{
+        padding: 20px 0 0;
+        p{
+            margin: 0;
+            b{
+                color:#60b5f0;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.list-wrap{
+    overflow: hidden;
+    .li-inner{
+        margin: 20px 0;
+        background-color:#fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        transition: all .5s ease;
+
+        &:hover{
+            box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+            transform: scale(1.1);
+        }
+        .pic-box{
+            width: 95%;
+            margin: 2.5%;
+            position: relative;
+            padding-top: 100%;
+            .pic{
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+        }
+        .tit{
+            padding: 10px;
+            text-align: center;
+            margin: 0;
+            font-size: 16px;
+        }
+    }
+}
